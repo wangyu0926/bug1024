@@ -1,14 +1,14 @@
 <header class="home-header">
 <nav class="channel-nav">
 <ul class="channel-nav_list">
-    <li class="channel-nav_list-item channel-nav_list-item--category-html"><a class="channel-nav_link" href="#">HTML</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-css"><a class="channel-nav_link" href="#">CSS</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-javascript"><a class="channel-nav_link" href="#">JS</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-php"><a class="channel-nav_link" href="#">PHP</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-database"><a class="channel-nav_link" href="#">DB</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-linux"><a class="channel-nav_link" href="#">Linux</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-tool"><a class="channel-nav_link" href="#">Tool</a></li>
-    <li class="channel-nav_list-item channel-nav_list-item--category-story"><a class="channel-nav_link" href="#">Story</a></li>
+<li class="channel-nav_list-item channel-nav_list-item--category-html"><a class="channel-nav_link" href="<?php echo site_url('channel/index/html');?>">HTML</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-css"><a class="channel-nav_link" href="<?php echo site_url('channel/index/css');?>">CSS</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-javascript"><a class="channel-nav_link" href="<?php echo site_url('channel/index/javascript');?>">JS</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-php"><a class="channel-nav_link" href="<?php echo site_url('channel/index/php');?>">PHP</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-database"><a class="channel-nav_link" href="<?php echo site_url('channel/index/database');?>">DB</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-linux"><a class="channel-nav_link" href="<?php echo site_url('channel/index/linux');?>">Linux</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-tool"><a class="channel-nav_link" href="<?php echo site_url('channel/index/tool');?>">Tool</a></li>
+    <li class="channel-nav_list-item channel-nav_list-item--category-story"><a class="channel-nav_link" href="<?php echo site_url('channel/index/story');?>">Story</a></li>
 </ul>
 </nav>
 </header>

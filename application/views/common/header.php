@@ -23,28 +23,28 @@
           <a href="http://www.bug1024.com/#" tabindex="-1">频道</a>
           <ul class="dropdown">
             <li>
-              <a class="category-html menuitem" href="http://www.bug1024.com/html/">HTML</a>
+            <a class="category-html menuitem" href="<?php echo site_url('channel/index/html');?>">HTML</a>
             </li>
             <li>
-              <a class="category-css menuitem" href="http://www.bug1024.com/css/">CSS</a>
+            <a class="category-css menuitem" href="<?php echo site_url('channel/index/css');?>">CSS</a>
             </li>
             <li>
-              <a class="category-javascript menuitem" href="http://www.bug1024.com/javascript/">JS</a>
+            <a class="category-javascript menuitem" href="<?php echo site_url('channel/index/javascript');?>">JS</a>
             </li>
             <li>
-              <a class="category-php menuitem" href="http://www.bug1024.com/php/">PHP</a>
+            <a class="category-php menuitem" href="<?php echo site_url('channel/index/php');?>">PHP</a>
             </li>
             <li>
-              <a class="category-ruby menuitem" href="http://www.bug1024.com/database/">DB</a>
+            <a class="category-ruby menuitem" href="<?php echo site_url('channel/index/database');?>">DB</a>
             </li>
             <li>
-              <a class="category-mobile menuitem" href="http://www.bug1024.com/linux/">Linux</a>
+            <a class="category-mobile menuitem" href="<?php echo site_url('channel/index/linux');?>">Linux</a>
             </li>
             <li>
-              <a class="category-ux menuitem" href="http://www.bug1024.com/tool/">Tool</a>
+            <a class="category-ux menuitem" href="<?php echo site_url('channel/index/tool');?>">Tool</a>
             </li>
             <li>
-              <a class="category-design menuitem" href="http://www.bug1024.com/story/">story</a>
+            <a class="category-design menuitem" href="<?php echo site_url('channel/index/story');?>">story</a>
             </li>
           </ul>
         </li>
@@ -64,4 +64,3 @@
     </section>
     </nav>
 </header>
-

@@ -30,5 +30,17 @@
     </ul>
   </div>
 </footer>
+<script type="text/javascript" charset="utf-8">
+$(function(){
+    $('.top-bar-section li a')
+        .mouseover(function(){
+            $(this).css({background:'#1e1e1e',color:'#fff'})
+        })
+        .mouseout(function(){
+            $(this).css({background:'#3a3a3a',color:'#fff'})
+        }
+    );
+});
+</script>
 </body>
 </html>
