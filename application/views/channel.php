@@ -1,12 +1,12 @@
 <main role="main" id="primary" class="page page--landing category-<?php echo $channel;?>">
-  <header role="banner" class="page_banner page_banner--category">
+    <header role="banner" class="page_banner page_banner--category">
     <h2 class="page_banner_title">
     <a href="http://www.bug1024.com/<?php echo $channel;?>/" class="page_banner_title_category"><i class="icon-category"></i><?php echo $channel;?></a>
           </h2>
     <div class="page_banner_adspot">
       <div class="widget maestro maestro-content-type-ad hide-for-mobile-SP" id="maestro-product-52"><!-- SP2013_Channel_728x90_1 -->
-  </header>
-  <div class="page_content">
+    </header>
+    <div class="page_content">
     <div class="content-filters">
         <div class="content-filters_controls">
           <a href="#" class="button secondary radius js-content-filters-show">文章筛选</a>
@@ -22,5 +22,5 @@
         </div>
     </div>
     </div>
-</div>
+    </div>
 </main>

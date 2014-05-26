@@ -175,7 +175,8 @@
 </ul>
 <div class="pagination-type2">
     <span class="button btn-active secondary radius">1</span>
-    <a class="button secondary radius" href="#">2</a>
-    <a class="button secondary radius" href="#">3</a>
+    <a class="button secondary radius" href="http://www.bug1024.com/index.php/index/index/1">2</a>
+    <a class="button secondary radius" href="http://www.bug1024.com/index.php/index/index/2">3</a>
+    <a class="button btn-next secondary radius" href="http://www.bug1024.com/index.php/index/index/next">Next</a>
 </div>
 </main>

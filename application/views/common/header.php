@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <base href="<?php echo base_url();?>">
-    <link rel="stylesheet" href="static/css/sitepoint.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/sitepoint.css" type="text/css">
     <script src="static/common/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <title>Bug1024</title>
 </head>
@@ -16,12 +16,16 @@
     <a class="logomark" href="" tabindex="1"><img src="" alt="bug1024"></a>
     </div>
     </li>
+    <li class="toggle-topbar menu-icon">
+    <a href="<?php echo base_url();?>"><span>Bug</span></a>
+    </li>
     </ul>
     <section class="top-bar-section">
       <ul class="right">
         <li class="has-dropdown">
-          <a href="http://www.bug1024.com/#" tabindex="-1">频道</a>
+        <a href="<?php echo base_url('#');?>" tabindex="-1">频道</a>
           <ul class="dropdown">
+          <li class="title back js-generated"><h5><a href="<?php echo base_url('#');?>">« Back</a></h5></li>
             <li>
             <a class="category-html menuitem" href="<?php echo site_url('channel/index/html');?>">HTML</a>
             </li>
