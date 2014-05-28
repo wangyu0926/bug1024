@@ -38,17 +38,21 @@
         <div class="col-md-6 col-md-offset-3  panel panel-default">
             <h1 class="margin-base-vertical">Have you ever found a bug?</h1>
             <p>Only can I feel the meaning of life when I'm coding...</p>
-            <form action="1.php" method="post" class="margin-base-vertical">
+            <form action="<?php echo site_url('bug/admin/check');?>" method="post" class="margin-base-vertical">
                 <p class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                    <input type="email" class="form-control input-lg" name="email" placeholder="">
+                    <input type="input" class="form-control input-lg" name="admin">
                 </p>
                 <p class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                    <input type="email" class="form-control input-lg" name="email" placeholder="">
+                    <input type="input" class="form-control input-lg" name="pwd">
+                </p>
+                <p class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+                    <input type="input" class="form-control input-lg" name="token">
                 </p>
                 <p class="text-center">
-                    <button class="btn btn-primary btn-lg" type="submit">Log in</button>
+                    <button class="btn btn-primary btn-lg" type="submit">Login</button>
                 </p>
             </form>
             <div class="margin-base-vertical">
