@@ -1,65 +1,70 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Admin</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="<?php echo base_url();?>">
-    <link rel="stylesheet" href="static/common/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static/back/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="static/back/lib/bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="static/back/stylesheets/theme.css">
+    <link rel="stylesheet" href="static/back/lib/font-awesome/css/font-awesome.css">
+    <script src="static/js/jquery.min.js" type="text/javascript"></script>
     <style type="text/css">
-        html { 
-            background: url(static/image/login_bg.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+        #line-chart {
+            height:300px;
+            width:800px;
+            margin: 0px auto;
+            margin-top: 1em;
         }
-        body{
-            padding-top:20px;
-            font-size:16px;
-            font-family: "Open Sans",serif;
-            background: transparent;
+        .brand { font-family: georgia, serif; }
+        .brand .first {
+            color: #ccc;
+            font-style: italic;
         }
-        h1 {
-            font-family: "Abel", Arial, sans-serif;
-            font-weight: 400;
-            font-size: 40px;
-        }
-
-        .margin-base-vertical {
-            margin: 40px 0;
-        }
-        .panel {
-            background-color: rgba(255, 255, 255, 0.9);
+        .brand .second {
+            color: #fff;
+            font-weight: bold;
         }
     </style>
-    <title>Verify</title>
-</head>
-<body>
-<div class="container">
-    <div class="row">   
-        <div class="col-md-6 col-md-offset-3  panel panel-default">
-            <h1 class="margin-base-vertical">Have you ever found a bug?</h1>
-            <p>Only can I feel the meaning of life when I'm coding...</p>
-            <form action="<?php echo site_url('bug/admin/check');?>" method="post" class="margin-base-vertical">
-                <p class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                    <input type="input" class="form-control input-lg" name="admin">
-                </p>
-                <p class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                    <input type="input" class="form-control input-lg" name="pwd">
-                </p>
-                <p class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
-                    <input type="input" class="form-control input-lg" name="token">
-                </p>
-                <p class="text-center">
-                    <button class="btn btn-primary btn-lg" type="submit">Login</button>
-                </p>
-            </form>
-            <div class="margin-base-vertical">
-                <small class="text-muted"><a href="#">www.bug1024.com</a></small>
+    <link rel="shortcut icon" href="static/favicon.ico">
+  </head>
+  <body> 
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <ul class="nav pull-right">
+                </ul>
+                <a class="brand" href="index.html"><span class="first">Your</span> <span class="second">Company</span></a>
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+    <div class="row-fluid">
+    <div class="dialog span4">
+        <div class="block">
+            <div class="block-heading">Sign In</div>
+            <div class="block-body">
+                <form action="index.php/bug/admin/check" method="post">
+                    <label>Username</label>
+                    <input type="text" class="span12" name="admin">
+                    <label>Password</label>
+                    <input type="password" class="span12" name="pwd">
+                    <label>Token</label>
+                    <input type="text" class="span12" name="token">
+                    <input type="submit" class="btn btn-primary pull-right" value="Login">
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+        </div>
+        <p class="pull-right" style=""><a href="http://www.portnine.com" target="blank">Theme by Portnine</a></p>
+        
+        <p><a href="reset-password.html">Forgot your password?</a></p>
+    </div>
 </div>
+    <script src="static/back/lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
